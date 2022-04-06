@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body_bg {
+    background-image: url(img/bg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_bg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/bg-header.png);
+    background-position-y: bottom;
+    margin-bottom: 50px;
+}
+
+.header_translate {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    background-image: url(img/bg-footer.png);
+    background-position-y: bottom;
+}
+
+.header_translate_1 {
+    padding-right: 5px;
+    text-align: center;
+}
+
+.header_translate_2 a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header_txt {
+    width: 100%;
+}
+
+.header_txt_top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    color: #324B4B;
+    font-family: Impact, Helvetica, sans-serif;
+    text-shadow: 0 1px 0 white, 0 -1px 0 rgba(0, 0, 0);
+}
+
+.header_txt_top_nav_yellow {
+    padding-left: 15px;
+    color: #F0D200;
+}
+
+.header_txt_bottom {
+    padding-bottom: 60px;
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.header_txt_bottom_1 {
+    font-weight: 100;
+    padding-right: 10px;
+}
+
+.header_txt_bottom_2 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.art_bg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art_bg_pin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0px 10px;
+}
+
+.art_bg_pin_name {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.art_bg_pin_name_h2 {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 1000;
+    color: #DC3228;
+}
+
+.art_bg_pin_info {
+    padding: 10px 0px;
+    width: 100%;
+    height: 110px;
+    font-size: 16px;
+}
+
+.art_bg_pin_version {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.art_bg_pin_version_BD {
+    padding-left: 5px;
+    font-weight: 1000;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.art_bg_pin_visit {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.art_bg_pin_like {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.art_bg_pin_like_in {
+    display: flex;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 3px 0px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(24, 116, 239);
+    cursor: pointer;
+    border-color: none;
+    outline: none;
+}
+
+.art_bg_pin_like_in_icon {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/like.png);
+    background-size: 20px 20px;
+}
+
+.art_bg_pin_like_in_h3 {
+    padding: 0px 5px;
+    font-weight: 900;
+}
+
+.art_bg_pin_chrome_img {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 125px;
+    height: 130px;
+    margin-bottom: 30px;
+    background-position-y: 0px;
+    background-position-x: 0px;
+}
+
+.art_bg_pin_firefox_img {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 125px;
+    height: 130px;
+    margin-bottom: 30px;
+    background-position-y: 0px;
+    background-position-x: 498px;
+}
+
+.art_bg_pin_safari_img {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 125px;
+    height: 130px;
+    margin-bottom: 30px;
+    background-position-y: 0px;
+    background-position-x: 248px;
+}
+
+.art_bg_pin_opera_img {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 125px;
+    height: 130px;
+    margin-bottom: 30px;
+    background-position-y: 0px;
+    background-position-x: 374px;
+}
+
+.art_bg_pin_internet_explorer_img {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 125px;
+    height: 130px;
+    margin-bottom: 30px;
+    background-position-y: 0px;
+    background-position-x: 122px;
+}
+
+.footer_bg {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/bg-footer.png);
+    background-position-y: top;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    height: 1000%;
+}
+
+.footer_bg_txt {
+    padding-top: 81px;
+    width: 50%;
+}
+
+.footer_bg_txt_title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #F0D200;
+}
+
+.footer_bg_txt_text {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.footer_bg_info {
+    padding-top: 80px;
+    padding-left: 40px;
+    width: 30%;
+    display: block;
+}
+
+.footer_bg_info_top {
+    display: flex;
+    height: 34px;
+    margin-bottom: 35px;
+}
+
+.footer_bg_info_top_title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #F0D200;
+    padding-right: 40px;
+}
+
+.footer_bg_info_top_icon {
+    display: flex;
+    opacity: 50%;
+}
+
+.footer_bg_info_top_icon a {
+    display: flex;
+}
+
+.footer_bg_info_top_icon_Tumblr {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    background-position-y: -135px;
+    background-position-x: 325px;
+}
+
+.footer_bg_info_top_icon_Facebook {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 32px;
+    height: 32px;
+    background-position-y: -135px;
+    background-position-x: 293px;
+}
+
+.footer_bg_info_botton {
+    display: flex;
+}
+
+.footer_bg_info_botton_icon {
+    background-image: url(img/browsehappy-sprite.png);
+    width: 258px;
+    height: 18px;
+    margin-bottom: 30px;
+    background-position-y: -135px;
+    background-position-x: 583px;
+}
