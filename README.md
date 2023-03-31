@@ -1,4 +1,4 @@
-# Replica_Pagina_NavegaFeliz
+# Replica Pagina Navega Feliz
 En esta practica se replico la pagina Navega Feliz, como practica para el Frontend
 
 [Universidad Politécnica de Durango](http://www.unipolidgo.edu.mx/sitio/) - Ingeniería en software
