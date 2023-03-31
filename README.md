@@ -6,7 +6,7 @@ En esta practica se replico la pagina Navega Feliz, como practica para el Fronte
 
 ## Links de consulta:
 
-### [Replica de pagina](https://mierderthekat.github.io/Replica_Pagina_WEB/)
+### [Replica de pagina](https://mierderthekat.github.io/Replica_Pagina_NavegaFeliz/)
 
 ### [Pagina original](https://browsehappy.com/?locale=es)
 
